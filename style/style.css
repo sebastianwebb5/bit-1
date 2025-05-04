@@ -6,7 +6,7 @@
 
 body, html {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     height: 100%;
 }
 
@@ -23,16 +23,14 @@ body, html {
 
 .header {
     grid-area: header;
-    background-color: #000000;
+    background-color: #070707;
     color: white;
-    padding: 20px;
     text-align: center;
 }
 
 .nav {
     grid-area: nav;
     background-color: #000000;
-    padding: 15px;
     /*boton de navegacion*/
     .dropdown-item{
         background-color: rgb(0, 0, 0);
@@ -71,7 +69,6 @@ body, html {
 .section {
     background-color: white;
     padding: 20px;
-    border: 1px solid #ccc;
     text-align: center;
 }
 
@@ -92,6 +89,22 @@ body, html {
     width: 300px;
     height: 300px;
     margin:0 auto;
+}
+.qr-seccion3{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin:0 auto;
+    border:10px solid rgb(247, 193, 93) ;
+    border-radius: 20%;
+
+}
+/*iconos*/
+.bi{
+background-color:rgb(247, 193, 93) ;
+color: #000000;
+font-size: 60px;
+
 }
 
 
