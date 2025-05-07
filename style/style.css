@@ -6,7 +6,7 @@
 
 body, html {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    background-color:white;
     height: 100%;
 }
 
@@ -30,12 +30,13 @@ body, html {
 
 .nav {
     grid-area: nav;
-    background-color: #000000;
+    background-color: #030303;
     /*boton de navegacion*/
     .dropdown-item{
         background-color: rgb(0, 0, 0);
-        color: rgb(247, 193, 93);
+        color: rgb(247, 193, 93) 
     }
+   
 }
 
 /*.nav ul {
@@ -89,14 +90,18 @@ body, html {
     width: 300px;
     height: 300px;
     margin:0 auto;
+    box-shadow: 10px 4px 10px 10px #888585;
+    border-radius: 20px;
 }
 .qr-seccion3{
     display: flex;
     width: 300px;
     height: 200px;
     margin:0 auto;
-    border:10px solid rgb(247, 193, 93) ;
     border-radius: 20%;
+    box-shadow: 10px 4px 10px 10px #888585;
+    border-radius: 20px;
+    
 
 }
 /*iconos*/
@@ -104,10 +109,72 @@ body, html {
 background-color:rgb(247, 193, 93) ;
 color: #000000;
 font-size: 60px;
+box-shadow: 2px 2px 2px 4px #030303;
+    border-radius: 10px;
 
 }
 
+/*ESTILOS PARA EL LOGIN*/
+.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes-logos/fondo-login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formulario{
+    width: 300px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 4px 10px 10px #545252;
+    border-radius: 20px;
 
+}
+.img-login{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+
+}
+.input{
+    outline: 0;
+    border: 1px solid #080808;
+    width: 80%;
+    padding: 10px;
+
+}
+.label{
+    font-weight: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.boton{
+    outline: 0;
+    border: 0;
+    background-color: royalblue;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 250px;
+    padding: 5px;
+    transition: all .3s ease-in-out;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+
+}
+
+.div{
+    background-color: #ffffff;
+}
 
 
 
