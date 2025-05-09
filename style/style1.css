@@ -128,6 +128,9 @@
     color: #ffffff;
     font-weight: 500;
 }
+.contenedorlogin{
+    background-color: rgb(254, 255, 255);
+}
 /*caligrafia*/
 .titulo{
     color:rgb(247, 193, 93);
