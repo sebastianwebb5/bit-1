@@ -5,12 +5,43 @@
     box-sizing: border-box;
   }
   /* Responsive */
-  @media (max-width: 600px) {
-    nav ul {
-      flex-direction: column;
-      align-items: center;
+   @media (max-width: 640px) {
+    .grid-container {
+      grid-template-areas: 
+        "grid-item item1"
+        "grid-item item2"
+        "grid-item item3"
+        "grid-item item4"
+        "grid-item item5"
+        "grid-item item6"
+        "grid-item item7"
+        "grid-item item8"
+        "grid-item item9"
+        "grid-item item10"
+        "grid-item item11"
+        "grid-item item12";
+        
+      grid-template-columns: 1fr;
     }
 }
+ @media (max-width: 930px) {
+    .grid-container {
+      grid-template-areas: 
+      "grid-item item1"
+        "grid-item item2"
+        "grid-item item3"
+        "grid-item item4"
+        "grid-item item5"
+        "grid-item item6"
+        "grid-item item7"
+        "grid-item item8"
+        "grid-item item9"
+        "grid-item item10"
+        "grid-item item11"
+        "grid-item item12";
+      grid-template-columns: 1fr;
+    }
+     }
   
   body {
     font-family: Arial, sans-serif;
@@ -51,7 +82,7 @@
   .grid-item {
     background-color: #ffffff;
     padding: 2em;
-    border: 1px solid #ddd;
+    border: 1px solid #ffffff;
     text-align: center;
     font-weight: bold;
   }
@@ -62,6 +93,24 @@
     height: 300px;
     margin:0 auto;
     box-shadow: 10px 4px 10px 10px #ccc;
+    border-radius: 20px;
+}
+.qr-tumba2{
+   display: flex;
+    width: 400px;
+    height: 300px;
+    margin:0 auto;
+    text-align: center;
+    box-shadow: 10px 4px 10px 10px #ccc;
+    border-radius: 20px;
+}
+.gif-qr{
+  display: flex;
+    width: 400px;
+    height: 600px;
+    margin:0 auto;
+    text-align: center;
+    box-shadow: 10px 4px 10px 10px #eee062;
     border-radius: 20px;
 }
 /*MODIFICACIONES ICONOS*/
@@ -134,8 +183,23 @@
 /*caligrafia*/
 .titulo{
     color:rgb(247, 193, 93);
-   
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .tituloseg{
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
+.parrafo{
+  font-family: "GFS Didot", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
 /*MODIFICACIONES DE BOTON MENU*/
 .btn{
     background-color: rgb(247, 193, 93);
